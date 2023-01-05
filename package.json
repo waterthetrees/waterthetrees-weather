@@ -1,0 +1,32 @@
+{
+  "name": "waterthetrees-weather",
+  "author": "Team 'Water the Trees' (waterthetrees.com)",
+  "version": "2.0.0",
+  "description": "weather forecasts",
+  "main": "weather.js",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "dev": "nodemon weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waterthetrees/waterthetrees-weather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/waterthetrees/waterthetrees-weather/issues"
+  },
+  "homepage": "https://github.com/waterthetrees/waterthetrees-weather#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "logform": "^2.1.2",
+    "node-cache": "^4.2.0",
+    "winston": "^3.2.1"
+  }
+}
